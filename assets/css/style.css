@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+/********************************************* Generic Stylings */
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/********************************************* Header/Nav */
+
+.header{
+    padding: 50px;
+}
+
+.turquoise-bg{
+    background-color: #A6F7CD;
+}
+
+.logo-image{
+    max-height: 50px;
+}
+ 

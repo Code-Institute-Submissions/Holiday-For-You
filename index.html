@@ -16,74 +16,67 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="turquoise-bg">
+    <header class="turquoise-bg shadow header">
 <!--Nav Bar taken from Bootstrap (start)-->        
         <nav class="navbar navbar-expand-lg navbar-light ">
             <img class="logo-image" src="assets/images/plane-cropped.png" alt="logo">
-            <a class="navbar-brand header" href="#">Holidays For You!</a>
+            <a class="navbar-brand heading" href="#">Holidays For You!</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        There's More!
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            There's More!
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
 <!--End of Bootstrap Nav bar-->
     </header>
-    <hr>
-    <footer>
-        <div class="wrapper-white">
-        <!--Text From https://www.tui.co.uk/holidays Footer spefically Start-->
-            <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><a href="#">Holiday Types</a></li>
-                <li class="list-group-item"><a href="#">Popular Destinations</a></li>
-                <li class="list-group-item"><a href="#">Mid/Long haul</a></li>
-                <li class="list-group-item"><a href="#">Short haul</a></li>
-                <li class="list-group-item"><a href="#">Flights To</a></li>
-                <li class="list-group-item"><a href="#">Cruise</a></li>
-            </ul>
+<!--Start of Container-->    
+    <div class="wrapper-white">
+        <div class="shadow ">
             <hr>
-            <h6><strong>Travel Aware - Staying Safe and Healthy Abroad</strong></h6>
-            <p>The Foreign & Commonwealth Office and National Travel Health Network and Centre have up-to-date advice on staying safe and healthy abroad.</p>
-            <p>
-                For the latest travel advice from the Foreign & Commonwealth Office including security and local laws, plus passport and visa information check 
-                <a href="https://travelaware.campaign.gov.uk/">www.gov.uk/travelaware</a> and follow <a href="https://twitter.com/FCOtravel">@FCOtravel</a> and 
-                <a href="https://www.facebook.com/fcotravel/">Facebook.com/FCOtravel</a>
-            </p>
+            <footer>
+                <div class="wrapper-white">
+                <!--Text From https://www.tui.co.uk/holidays Footer spefically Start-->
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item"><a href="#">Holiday Types</a></li>
+                        <li class="list-group-item"><a href="#">Popular Destinations</a></li>
+                        <li class="list-group-item"><a href="#">Mid/Long haul</a></li>
+                        <li class="list-group-item"><a href="#">Short haul</a></li>
+                        <li class="list-group-item"><a href="#">Flights To</a></li>
+                        <li class="list-group-item"><a href="#">Cruise</a></li>
+                    </ul>
+                    <hr>
+                    <h6><strong>Travel Aware - Staying Safe and Healthy Abroad</strong></h6>
+                    <p>The Foreign & Commonwealth Office and National Travel Health Network and Centre have up-to-date advice on staying safe and healthy abroad.</p>
+                    <p>
+                        For the latest travel advice from the Foreign & Commonwealth Office including security and local laws, plus passport and visa information check 
+                        <a href="https://travelaware.campaign.gov.uk/">www.gov.uk/travelaware</a> and follow <a href="https://twitter.com/FCOtravel">@FCOtravel</a> and 
+                        <a href="https://www.facebook.com/fcotravel/">Facebook.com/FCOtravel</a>
+                    </p>
+                </div>
+            <!--Text From https://www.tui.co.uk/holidays Footer spefically End-->
+            </footer> 
         </div>
-        <!--Text From https://www.tui.co.uk/holidays Footer spefically End-->
-        <div class="turquoise-bg">
-            <h5>Here's Where You Can Find Us</h5>
-            <!--Social media icons from https://fontawesome.com/-->
-            <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><a href="#"><i id="facebook-icon" class="fab fa-facebook-square"></i></a></li>
-                <li class="list-group-item"><a href="#"><i id="twitter-icon" class="fab fa-twitter-square"></i></a></li>
-                <li class="list-group-item"><a href="#"><i id="linkedin-icon" class="fab fa-linkedin"></i></a></li>
-                <li class="list-group-item"><a href="#"><i id="instagram-icon" class="fab fa-instagram-square"></i></a></li>
-                <li class="list-group-item"><a href="#"><i id="youtube-icon" class="fab fa-youtube-square"></i></a></li>
-                <li class="list-group-item"><a href="#"><i id="pinterest-icon" class="fab fa-pinterest-square"></i></a></li>
-            </ul>
-        </div>
-    </footer>  
+     </div>
 </body>
 </html>

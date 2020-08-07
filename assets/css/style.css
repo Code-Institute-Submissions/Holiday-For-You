@@ -15,17 +15,25 @@ h6{
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.19);
+}
+
 /********************************************* Wrapper */
 
 .wrapper-white{
     background-color: white;
-    padding: 0 20%;
+    padding: 0 10%;
     width: 100%;
 }
 
 /********************************************* Header/Nav */
 
 .header{
+    margin-bottom: 40px;
+}
+
+.heading{
     padding: 50px;
 }
 
@@ -39,10 +47,28 @@ h6{
 
 /********************************************* Footer */
 
+footer{
+    text-align: center;
+}
+
+footer .turquoise-bg{
+    padding: 20px 0;
+}
+
+.list-group li a i {
+    background-color: #fff;
+    font-size: 32px;
+    width: 28px;
+    height: 30px;
+    border-radius: 5px;
+}
+
 .list-group-item {
     border-width: 0px !important; 
     background-color: inherit !important;
 }
+
+/* Possibly to be used again? Delete if no longer useful 
 
 #facebook-icon{
     color: #4267B2;
@@ -66,4 +92,4 @@ h6{
 
 #pinterest-icon{
    color: #E60023; 
-}
+}*/

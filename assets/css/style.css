@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+/* !important has been used on .list-group-item to override bootstrap styling */
+
 /********************************************* Generic Stylings */
 
 p,
@@ -10,6 +13,14 @@ h4,
 h5,
 h6{
     font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/********************************************* Wrapper */
+
+.wrapper-white{
+    background-color: white;
+    padding: 0 20%;
+    width: 100%;
 }
 
 /********************************************* Header/Nav */
@@ -25,4 +36,34 @@ h6{
 .logo-image{
     max-height: 50px;
 }
- 
+
+/********************************************* Footer */
+
+.list-group-item {
+    border-width: 0px !important; 
+    background-color: inherit !important;
+}
+
+#facebook-icon{
+    color: #4267B2;
+}
+
+#twitter-icon{
+    color:  #00acee;
+}
+
+#linkedin-icon{
+    color: #0e76a8;
+}
+
+#instagram-icon{
+    color: #DD2A7B;
+}
+
+#youtube-icon{
+    color: #FF0000;
+}
+
+#pinterest-icon{
+   color: #E60023; 
+}

@@ -19,11 +19,22 @@ h6{
     box-shadow: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.19);
 }
 
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: #000;
+     text-decoration:none; 
+}
+
 /********************************************* Wrapper */
 
 .wrapper-white{
     background-color: white;
-    padding: 0 10%;
+    padding: 2.5% 10%;
     width: 100%;
 }
 
@@ -34,7 +45,7 @@ h6{
 }
 
 .heading{
-    padding: 50px;
+    padding: 25px;
 }
 
 .turquoise-bg{
@@ -93,3 +104,12 @@ footer .turquoise-bg{
 #pinterest-icon{
    color: #E60023; 
 }*/
+
+/********************************************* Image Cards */
+
+.card-group img{
+    height: 200px;
+    margin-top: 10px;
+}
+
+

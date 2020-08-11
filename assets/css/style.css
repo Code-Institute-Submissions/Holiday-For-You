@@ -113,3 +113,8 @@ footer .turquoise-bg{
 }
 
 
+/********************************************* Map API */
+
+div#map{
+    min-height: 360px;
+}

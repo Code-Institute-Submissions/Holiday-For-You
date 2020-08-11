@@ -95,7 +95,18 @@
                 </div>
             </div>
         <!--Images card group taken from Bootstrap (End)-->    
-<!--End of image cards-->            
+<!--End of image cards-->    
+<!--Start of Google Maps API-->
+        <!--Code taken from https://developers.google.com/maps/documentation/javascript/examples/places-searchbox for use with the Google Maps/places API (start)-->
+            <input
+                id="pac-input"
+                class="controls"
+                type="text"
+                placeholder="Search Box"
+            />
+        <!--End of Google Maps/place API code-->    
+            <div id="map"></div>
+<!--End of Google Maps API-->       
             <hr>
             <footer>
                 <div class="wrapper-white">
@@ -120,6 +131,8 @@
             <!--Text From https://www.tui.co.uk/holidays Footer spefically End-->
             </footer> 
         </div>
-     </div>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpYnTcNTX_beSTjMSBFZ50bxhq_gLn0lQ&callback=initAutocomplete&libraries=places"></script>
+    <script src="assets/js/maps.js"></script>
 </body>
 </html>

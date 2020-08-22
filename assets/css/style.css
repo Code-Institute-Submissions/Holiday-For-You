@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
 
-/* !important has been used on .list-group-item to override bootstrap styling */
-
 /********************************************* Generic Stylings */
 
 p,
@@ -66,6 +64,10 @@ footer .turquoise-bg{
     padding: 20px 0;
 }
 
+.list-group-horizontal li {
+    display: block;
+  }
+
 .list-group li a i {
     background-color: #fff;
     font-size: 32px;
@@ -111,8 +113,20 @@ footer .turquoise-bg{
     height: 200px;
 }
 
+.col-xl-3{
+    padding: 0;
+}
 /********************************************* Map API */
 
 div#map{
     min-height: 360px;
+}
+
+/********************************************* Media Queries */
+
+/*Fix this shit*/
+@media (max-width: 768px) {
+    .list-group-horizontal li{
+    display: inline;
+  }
 }

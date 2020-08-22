@@ -1,6 +1,8 @@
+//Code taken from https://developers.google.com/maps/documentation/javascript/examples/places-searchbox for use with the Google Maps/places API (start)-->
 function initAutocomplete() {
     const map = new google.maps.Map(document.getElementById("map"), {
         center: {
+        // Code changed to centre on Europe    
             lat: 54.5260,
             lng: 15.2551
         },
@@ -64,3 +66,4 @@ function initAutocomplete() {
             map.fitBounds(bounds);
     });
 } 
+//End

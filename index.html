@@ -109,9 +109,16 @@
         <!--Images card group taken from Bootstrap (End)-->    
 <!--End of image cards--> 
 <!--Start of introduction to Google API, Tells user how to use the API for their own uses--> 
-            <div>
+            <div class="wrapper-white text-center">
                 <h3>Welcome to Holidays For You!</h3>
+                <p>Holidays For You has a neat funtion that allows you to search anywhere in the world and see what might interest you!</p>
+            <!--The first paragraph appears on smaller screens to help not confuse users, whereas the second appears on bigger screens to help stream line the process-->  
+                <p class="d-md-none">Just tap on the seach bar and search where you're going and what you're looking for!</p>  
+                <p class="d-none d-md-block">Just click on the seach bar and search where you're going and what you're looking for!</p>
+                <p>Holidays For You will help you out by auto completing your search saving you time for more important things like packing!</p>
+                <p>Just keep inmind to be specific with what you want, sometimes we get a little confuse!</p>
             </div>
+<!--End of intro-->            
 <!--Start of Google Maps API-->
         <!--Code taken from https://developers.google.com/maps/documentation/javascript/examples/places-searchbox for use with the Google Maps/places API (start)-->
             <input
@@ -123,8 +130,7 @@
         <!--End of Google Maps/place API code-->    
             <div id="map"></div>
 <!--End of Google Maps API-->       
-            <footer>
-                <div class="wrapper-white">
+            <footer class="wrapper-white">
                 <!--Text From https://www.tui.co.uk/holidays Footer spefically Start-->
                     <ul class="list-group list-group-horizontal">
                         <li class="list-group-item flex-fill"><a href="#">Holiday Types</a></li>
@@ -142,7 +148,6 @@
                         <a href="https://travelaware.campaign.gov.uk/">www.gov.uk/travelaware</a> and follow <a href="https://twitter.com/FCOtravel">@FCOtravel</a> and 
                         <a href="https://www.facebook.com/fcotravel/">Facebook.com/FCOtravel</a>
                     </p>
-                </div>
             <!--Text From https://www.tui.co.uk/holidays Footer spefically End-->
             </footer> 
         </div>

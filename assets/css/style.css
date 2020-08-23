@@ -28,6 +28,9 @@ a:hover
      text-decoration:none; 
 }
 
+.row{
+        margin: 0;
+}
 /********************************************* Wrapper */
 
 .wrapper-white{
@@ -80,33 +83,6 @@ footer .turquoise-bg{
     border-width: 0px !important; 
     background-color: inherit !important;
 }
-
-/* Possibly to be used again? Delete if no longer useful 
-
-#facebook-icon{
-    color: #4267B2;
-}
-
-#twitter-icon{
-    color:  #00acee;
-}
-
-#linkedin-icon{
-    color: #0e76a8;
-}
-
-#instagram-icon{
-    color: #DD2A7B;
-}
-
-#youtube-icon{
-    color: #FF0000;
-}
-
-#pinterest-icon{
-   color: #E60023; 
-}*/
-
 /********************************************* Image Cards */
 
 .card-group img{
@@ -124,9 +100,9 @@ div#map{
 
 /********************************************* Media Queries */
 
-/*Fix this shit*/
+/*Bootstraps medium break point*/
 @media (max-width: 768px) {
-    .list-group-horizontal li{
-    display: inline;
-  }
+    .list-group-horizontal{
+        flex-direction: column;
+    }
 }

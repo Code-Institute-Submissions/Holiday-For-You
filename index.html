@@ -55,8 +55,9 @@
         <div class="shadow ">
 <!--Start of image cards-->
         <!--Images card group taken from Bootstrap (start)-->
+        <!--Cards are for "promotional" purposes and slowly reduces as the user's screen gets smaller-->
             <div class="card-group row">
-                <div class="card col-xl-3">
+                <div class="card d-none d-sm-block col-sm-4 col-xl-3">
                     <a href="#">
                         <img src="assets/images/bath-england.jpg" class="card-img-top" alt="Bath England"> <!--https://commons.wikimedia.org/wiki/File:Villa_dundar_kas_turkey_-_panoramio.jpg-->
                         <div class="card-body">
@@ -68,7 +69,7 @@
                         </div>
                     </a>    
                 </div> 
-                <div class="card col-xl-3">
+                <div class="card d-none d-sm-block col-sm-4 col-xl-3">
                     <a href="#">
                         <img src="assets/images/pantheon-in-rome.jpg" class="card-img-top" alt="Pantheon in Rome"> <!--https://www.publicdomainpictures.net/en/view-image.php?image=213076&picture=pantheon-in-rome-->
                         <div class="card-body">
@@ -80,7 +81,7 @@
                         </div>
                     </a>    
                 </div>
-                <div class="card col-xl-3">
+                <div class="card d-none d-sm-block col-sm-4 col-xl-3">
                     <a href="#">
                         <img src="assets/images/turkey-villa.jpg" class="card-img-top" alt="Turkey Villa"> <!--https://www.flickr.com/photos/pedrosz/38162201235-->
                         <div class="card-body">
@@ -106,7 +107,11 @@
                 </div>
             </div>
         <!--Images card group taken from Bootstrap (End)-->    
-<!--End of image cards-->    
+<!--End of image cards--> 
+<!--Start of introduction to Google API, Tells user how to use the API for their own uses--> 
+            <div>
+                <h3>Welcome to Holidays For You!</h3>
+            </div>
 <!--Start of Google Maps API-->
         <!--Code taken from https://developers.google.com/maps/documentation/javascript/examples/places-searchbox for use with the Google Maps/places API (start)-->
             <input
@@ -118,7 +123,6 @@
         <!--End of Google Maps/place API code-->    
             <div id="map"></div>
 <!--End of Google Maps API-->       
-            <hr>
             <footer>
                 <div class="wrapper-white">
                 <!--Text From https://www.tui.co.uk/holidays Footer spefically Start-->

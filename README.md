@@ -89,3 +89,42 @@ more stories. try to use at least one of each type (assigned through membership,
 6. Covid 19 travel Warning 
     * With the world in its current state it would be irresponsible to not warn users of the potential risks of traveling at the present time. The reason for this warning being positioned so 
     closely to the holiday links is so that users see it before clicking on a "type of holiday link". The title of the section is also in bold for the purposes of the catching the user eye. 
+
+## Technologies Used 
+
+* [HTML5](https://html.spec.whatwg.org/multipage/)
+    * **HTML5** was used to build the structural elements of the webpage.
+* [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+    * This was used to style the elements made by **HTML5**, as well as position them.
+* [Github](https://github.com/)
+    * Used as a hosting platform for testing and deploying the final product. Along with helping with any rollback needed to access backup files.
+* [Gitpod](https://www.gitpod.io/)
+    * Was used for its ready to code environment allowing the project to begin and end.
+* [Bootstrap](https://getbootstrap.com/)
+    * The external **CSS** styles provided by **Bootstrap** was used to help make complex styles simple tasks saving time.
+* [Google Fonts](https://fonts.google.com/)
+    * Used to embed more fonts to allow for a bespoke experience.
+* [Lucid Chart](https://www.lucidchart.com/pages/landing?utm_source=google&utm_medium=cpc&utm_campaign=en_tier1_desktop_branded_x_exact&km_CPC_CampaignId=1490375427&km_CPC_AdGroupID=55688909257&km_CPC_Keyword=lucid%20chart&km_CPC_MatchType=e&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_AdPosition=&km_CPC_Creative=442433236001&km_CPC_TargetID=aud-561781099678:kwd-55720648523&km_CPC_Country=1007106&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&mkwid=sVrXnwD0X_pcrid_442433236001_pkw_lucid%20chart_pmt_e_pdv_c_slid__pgrid_55688909257_ptaid_aud-561781099678:kwd-55720648523_&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjiQYeykbPL_LmTiHj4BypQ90ja1hToA7P0X--EVGSU0_VrDA2s-GBAaAivTEALw_wcB)
+    * Used to make wireframes for the planning stages of the project.
+* [Google Maps API](https://tray.io/connectors/google-maps-integrations?utm_campaign=DG|G|Search|Connectors|All&utm_source=Google&utm_medium=ppc&utm_term=%2Bgooge%20%2Bmaps%20%2Bapi&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjjKFm3BSuYEeC3GKVl2gQOxF5FTZy2t5Ikca_5d0cgYCyY4WKKWcJwaAjkoEALw_wcB)
+    * Embedded into site for the foundation of the **Google Places API**, making a dynamic map for users to use. 
+* [Google Places API](https://developers.google.com/places/web-service/overview)
+    * The main aspect of the project used to allow users to search for places of interest within a specified location.
+
+## Testing
+
+## Deployment
+
+## Credits
+
+### Content
+
+* The text for the footer section was taken from [TUI](https://www.tui.co.uk/holidays).
+
+* Code within maps.js was taken from [Google Maps Platform](https://developers.google.com/maps/documentation/javascript/examples/places-searchbox).
+
+* Navbar, image cards and list for holiday links was taken from [Bootstrap](https://getbootstrap.com/docs/4.4/components/navbar/).
+
+### Media
+
+### Acknowledgements 

@@ -127,4 +127,20 @@ more stories. try to use at least one of each type (assigned through membership,
 
 ### Media
 
+* bath-england.jpg taken from [Wikimedia](https://commons.wikimedia.org/wiki/File:Villa_dundar_kas_turkey_-_panoramio.jpg)
+
+* pantheon-in-rome.jpg taken from [PublicDomainPictures](https://www.publicdomainpictures.net/en/view-image.php?image=213076&picture=pantheon-in-rome)
+
+* plane-cropped.png taken from [pngkey](https://www.pngkey.com/detail/u2q8r5a9y3u2r5t4_plane-logo-png-sketch/)
+
+* tokyo-japan.jpg taken from [Flickr](https://www.flickr.com/photos/pedrosz/38162201235)
+
+* turkey-villa.jpg taken from [Pikist](https://www.pikist.com/free-photo-vqdbo)
+
 ### Acknowledgements 
+
+Inspiration for this project came from multiple places the main sources were 
+* Disney World (the exact website can't be found)
+* [Expedia](https://www.expedia.co.uk/Holidays)
+* [TUI](https://www.tui.co.uk/holidays)
+* [First Choice](https://www.firstchoice.co.uk/holidays)

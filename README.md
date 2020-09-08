@@ -41,24 +41,31 @@ feel at home here. This allows for intuitive use of the API.
 
 ### User Stories 
 
-* As a general user, I wanted to have a look at some "popular destinations" tab but every time I click the link it takes me to the top of the main page.
+* As a general user, "I wanted to have a look at some "popular destinations" tab but every time I click the link it takes me to the top of the main page."
 This is a feature that will be added in later releases of the website. The reason the button takes the user to the top of the page is because "#" has been used as the link href, lacking a specified 
 id it goes to the top of the page. 
 
-* As a gernal user, I can look around the map but that's about it. I can't click on anything else. But I'd like to go to Rome please. 
+* As a gernal user, "I can look around the map but that's about it. I can't click on anything else. But I'd like to go to Rome please." 
+There could be many reasons as for why the API did not work however, as it has worked on multiple platforms it can be reasoned that this is a user error. 
+To help avoid this in the future the instructions will be written more clearly to help diminish the likelihod of this happening. 
+
+* As an admin user, "I wanted to test to the Google API Maps and Places it took a few attempts to get the result I wanted" 
+After some testing it is clear the API requires a specific sturcture so that the user can get the intended result. To combat this the instructions will be rewritten to reflect this.
 
 more stories. try to use at least one of each type (assigned through membership, admin, editor).
 
 ## Features
 
-1. Navbar 
+### Existing Features
+
+* Navbar 
     * The navbar is positioned at the very top of the page this is an industry standard and there's no reason to reinvent the wheel. However, the navbar contains a few tricks to assist in UX. 
     First is the integration of drop downs allowing for subcategories this also comes into play more as the user's screen becomes smaller. In this circumstance the entire navbar becomes a drop 
     down this is partly for styling purposes, as well as taking up less of screen. The last aspect is the name of the site disappears only leaving the logo and drop down. Oringinally this felt 
     unintuitive but on smaller screens there is no row of promations before the "welcome" text so the website starts off with a "Welcome to Holidays For You!" message, still saying the name of 
     the company.
 
-2. Promotion Cards 
+* Promotion Cards 
     * The promation cards' purpose is all in the name they promote potential holidays to any visitors to the site. What isn't in the name is where they are positioned, after the navbar this is 
     the second thing you see, as well as the first thing on your way down to the API. This forces the user's eye to the promotions taking their interest for a few moments. The cards also have 
     summarised informative text just enough to interest the user in the advertisement. On smaller screen all this info takes up too much space and would result in the user having to scroll for 
@@ -66,12 +73,12 @@ more stories. try to use at least one of each type (assigned through membership,
     informative text. This doesn't take away too much from the cards as they have been given eye catching images to also attract the eye of the user. Until they disappear completely on smaller 
     screens as there is not enough space to accomodate the feature. 
 
-3. Instructions for the API usage
+* Instructions for the API usage
     * This is a very small but important section of the page. The steps are written in a non-formal manner to help relax users who go to use the API. As some users will not have experience 
     with applications such as this one. The steps are separated into their owns lines this is the user read them as steps without making it obvious that they are. Again this is all down to 
     relax an inexperience user to the thought of using something they are unfamilar with, as this can be a daughting task.  
 
-4. APIs
+* APIs
     * The APIs used are the Google Maps and Places APIs supplied by Google. 
         1. Maps
             * This allows for the website to display dynamic and static maps of real world places, as well as allow them a street view 360&deg;. This is very helpful as users can search anywhere 
@@ -81,14 +88,27 @@ more stories. try to use at least one of each type (assigned through membership,
             * This API is the backbone of the website whereas maps allows a user to see anywhere the places API allows the user to see what places of interest there are in an area. The API itself 
             can be a bit finicky so instructions has been written to help users when using the API. Despite some small shortcoming the Google Places API works very well for the purposes required.
 
-5. Types of Holidays Shortcuts
+* Types of Holidays Shortcuts
     * These are to help users find the perfect holiday for them by asking subtle, simple questions the link themselves don't work at the moment but will link to pages with more information on 
     the topics. Other than this they shift from horizontal to vertical for the purpose of the different sized screen a user might have. The dynamic styling helps to keep the page working 
     smoothly no matter the screen sized giving all users a nice experience. 
 
-6. Covid 19 travel Warning 
+* Covid 19 travel Warning 
     * With the world in its current state it would be irresponsible to not warn users of the potential risks of traveling at the present time. The reason for this warning being positioned so 
     closely to the holiday links is so that users see it before clicking on a "type of holiday link". The title of the section is also in bold for the purposes of the catching the user eye. 
+
+### Features Left to Implement
+
+* Navbar Links 
+    * Currently the project is just a single webpage this can easily be expended upon by creating additional pages and linking them through the navbar. 
+
+* Promotion Cards Pages and Links
+    * The promation cards still need information pages about them to help inform users about what is being offered. On top of this links would be needed to link these pages together. The benefit 
+    of this is that these holidays can be advertise to the user properly, rather than just being eye catching and then scrolled past.
+
+* Holiday types Pages and Links
+    * At the moment the holiday types are just for decoration to expand upon this multiple pages need to be made and then linked to. This would create a more dynamic experiece for users, 
+    as there would be more for them to experiece and explore. 
 
 ## Technologies Used 
 
@@ -114,6 +134,15 @@ more stories. try to use at least one of each type (assigned through membership,
 ## Testing
 
 ## Deployment
+
+To host the website I made use of **Github** as a hosting platform. To accomplish I had to link **Github** to **Gitpod** this is quite a simple process having me add **Gitpod** as a browser extension to 
+my browser of choice. From there I had created a repository then I can proceed to open it with **Gitpod** and begin to develop the code. After enough code has been written I can then host the 
+website from the settings options scrolling to the **Github** pages section choosing to host off of the master branch. This will then provide me a link to access the website from. 
+The project has no differences between the development and deployed versions, this is so it is easy to update and maintain in the future as both are carbon copies of each other. Therefore 
+do not contain different configuration files and run on the master branch provided by **Github** pages.
+ 
+In order to run the code locally you will need **Github** and the **Gitpod** browser extension from there you will need to access **Github** repositories and open it within **Gitpod** using the added options 
+from the extension. 
 
 ## Credits
 

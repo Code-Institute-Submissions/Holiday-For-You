@@ -133,6 +133,58 @@ more stories. try to use at least one of each type (assigned through membership,
 
 ## Testing
 
+1. Navbar
+    i. Load website
+    ii. Ensure nav bar has loaded 
+    iii. See if "plane-cropped.png" has loaded in correct position with styling
+    iv. Check stylings on nav bar
+    v. Ensure dropdowns function correctly
+    **vi. Check all links function as intended**
+    vii. Check media queries with different screen sizes
+    viii. Make sure links become a drop down, and title centers itself
+    ix. Title disappears
+
+Links do not function as intended as with the "#" placeholder they link to the top of the page, this will be fixed as pages are linked 
+in feature releases.
+
+2. Promotion Cards
+    i. Ensure loaded correctly on largest screen, with 4 cards
+    ii. Go to break point 4 turn to 3 Cards
+    iii. Next break "info" text disappears
+    iv. Cards disappear completely
+
+3. API Instructions
+    i. Load as intended
+    ii. Forms to all screen sizes where the text is understandable
+
+4. APIs
+    i. Map loads
+    ii. Check "Map" and "Satellite" modes
+    iii. Check if "Labels" can be turned on and off
+    iv. Check "Fullscreen" mode and if can be exited
+    v. Check zoom in and out buttons
+    vi. Check "Street View" mode
+    vii. Check compass in "Street View"
+    viii. Check back button can be used to exit "Street View"
+    ix. Check if search box can be clicked
+    x. Check if search box can be typed in
+    xi. Check if auto suggestions appear
+    xii. Check if appropriate results appear
+
+5. Holiday Types
+    i. Display correctly
+    **ii. Check if links work as intended**
+    iii. Ensure horizontal list becomes vertical list as screen becomes smaller
+
+Links do not function as intended as with the "#" placeholder they link to the top of the page, this will be fixed as pages are linked 
+in feature releases.
+
+6. Covid warning
+    i. Loads correctly
+    ii. Forms with screen size and is readable
+
+Add how displays on different screens and browsers
+
 ## Deployment
 
 To host the website I made use of **Github** as a hosting platform. To accomplish I had to link **Github** to **Gitpod** this is quite a simple process having me add **Gitpod** as a browser extension to 

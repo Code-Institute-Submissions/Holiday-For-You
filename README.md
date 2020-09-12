@@ -183,7 +183,10 @@ in feature releases.
     i. Loads correctly
     ii. Forms with screen size and is readable
 
-Add how displays on different screens and browsers
+### Bugs
+
+1. The API can be very specific with how it handles the search function. Taking the user to an entirely different# location than intended. This isn't something that can be fixed. However, to avoid users 
+recreating the bug the instructions will be worded to encourage proper use of the API. 
 
 ## Deployment
 
